@@ -21,6 +21,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
     padding-top:0 !important;
 }
 </style>
+
 <div class="container-fluid">
     <form id="appointment_form" class="py-2">
     <div class="row" id="appointment">

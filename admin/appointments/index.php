@@ -8,6 +8,7 @@
 	top:0
 }
 </style>
+
 <div class="card card-outline card-primary">
 	<div class="card-header">
 		<h3 class="card-title">Agenda de Usuarios</h3>
@@ -107,8 +108,8 @@
 				                    <a class="dropdown-item view_data" href="javascript:void(0)" data-id="<?php echo $row['aid'] ?>"> Ver</a>
 									<div class="divider"></div>
 									<a class="dropdown-item edit_data" href="javascript:void(0)" data-id="<?php echo $row['aid'] ?>"> Editar</a>
-									<a class="dropdown-item" href=".././EnviarSMS/Enviar.php"> Enviar SMS</a>
-
+									<!-- <a class="dropdown-item" href=".././EnviarSMS/Enviar.php"> Enviar SMS</a> -->
+									<a class="dropdown-item send_msg" href="javascript:void(0)" data-id="<?php echo $row['aid'] ?>"> Mensaje</a>
 
 				                  </div>
 							</td>
@@ -130,6 +131,9 @@
 		})
 		$('.edit_data').click(function(){
 			uni_modal("Editar detalles de Citas","appointments/manage_appointment.php?id="+$(this).attr('data-id'),'mid-large')
+		})
+		$('.send_msg').click(function(){
+			uni_modal("Enviar mensaje privado","appointments/send_msg.php?id="+$(this).attr('data-id'))
 		})
 		$('#selectAll').change(function(){
 			// if($(this).is(":checked") == true){
