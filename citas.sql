@@ -150,8 +150,8 @@ CREATE TABLE `schedule_settings` (
 
 INSERT INTO `schedule_settings` (`meta_field`, `meta_value`, `date_create`) VALUES
 ('day_schedule', 'Monday,Tuesday,Wednesday,Thursday,Friday', '2021-09-02 19:55:37'),
-('morning_schedule', '08:00,11:00', '2021-09-02 19:55:37'),
-('afternoon_schedule', '13:00,16:00', '2021-09-02 19:55:37');
+('morning_schedule', '07:00,12:00', '2021-09-02 19:55:37'),
+('afternoon_schedule', '12:15,16:00', '2021-09-02 23:55:37');
 
 -- --------------------------------------------------------
 

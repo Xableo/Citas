@@ -23,8 +23,8 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 </style>
 <div class="container-fluid">
     <p><b>Agenda Programada:</b> <?php echo date("F d, Y",strtotime($date_sched))  ?></p>
-    <p><b>Usuario:</b> <?php echo $patient['name'] ?></p>
-    <p><b>Género:</b> <?php echo ucwords($patient['gender']) ?></p>
+    <p><b>Nombre:</b> <?php echo $patient['name'] ?></p>
+    <p><b>Sexo:</b> <?php echo ucwords($patient['gender']) ?></p>
     <p><b>Fecha de consulta:</b> <?php echo date("F d, Y",strtotime($patient['dob'])) ?></p>
     <p><b>Numero de Contacto:</b> <?php echo $patient['contact'] ?></p>
     <p><b>Email:</b> <?php echo $patient['email'] ?></p>

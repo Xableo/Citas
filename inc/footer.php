@@ -59,99 +59,114 @@
   })
 </script>
 
-
-<!--Inicio de los card de promocion-->
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Responsive Cards</title>
-    <style>
-        /* Style the card container */
-        .custom-card {
-            border: 1px solid #e0e0e0;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 10px;
-            margin: 10px;
-            text-align: center;
-        }
-
-        /* Style the title */
-        .custom-title {
-            color: #333;
-            font-size: 1.5rem;
-            margin: 10px 0;
-        }
-
-        /* Style the image */
-        .custom-card-image {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto 10px;
-        }
-
-        /* Style the button */
-        .custom-button {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 20px;
-            text-decoration: none;
-        }
-    </style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3y*vcJ5VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<body>
+<style>
+    /* Estilo para las imágenes en las tarjetas */
+    .card img {
+      max-width: 200px; /* Ancho máximo de la imagen */
+      height: auto; /* Mantener la proporción original */
+    }
     
+  </style>
+<body>
+
 <div class="container">
-    <div class="row">
-    <div class="col-md-3 col-sm-6 col-12"> <!-- For small screens, make each card take half the width -->
-            <div class="custom-card">    
-                <h4 class="custom-title">Cámaras de Vigilancia en Promoción</h4>
-                <p class="mb-2"> Te recomendamos encarecidamente considerar la instalación de cámaras de vigilancia en tu propiedad.<br/> Aquí te contamos por qué:.</p><br/>
-                <a class="custom-button" href="https://wa.me/5219241782211" target="_blank">Descubrir Oferta</a>
-
-            </div>
+  <div class="row row-cols-1 row-cols-md-3 g6">
+    <div class="col">
+      <div class="card">
+        <img src="https://expertosenhogar.com/wp-content/uploads/2020/08/las-10-mejores-camaras-de-vigilancia-exterior-con-zoom-optico-que-no-te-arrepentiras-de-comprar.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title" style="font-size: 24px; font-weight: bold; color: #000; line-height: 1.5;">Camaras de vigilancia</h5>
+          <p class="card-text">Te recomendamos encarecidamente considerar la instalación de cámaras de vigilancia en tu propiedad.<br/> Aquí te contamos por qué</p>
         </div>
-        
-        <div class="col-md-3 col-sm-6 col-12"> <!-- For small screens, make each card take half the width -->
-            <div class="custom-card">
-                <h4 class="custom-title">Mantenimiento de Cámaras</h4>
-                <p class="mb-2">Contáctanos hoy mismo para obtener más información<br/>Nuestro equipo está listo para ayudarte a mantener una vigilancia efectiva y continua.</p><br/>
-                <a class="custom-button" href="https://wa.me/5219241782211" target="_blank">Mas Informacion</a>
-
-            </div>
+        <div class="card-footer text-center">
+          <small class="text-muted">
+            <a href="https://wa.me/5219241782211" class="btn btn-primary" target="_blank">Más información</a>
+          </small>
         </div>
-        
-        <div class="col-md-3 col-sm-6 col-12"> <!-- For small screens, make each card take half the width -->
-            <div class="custom-card">
-             <!--<img class="custom-card-image" src="image_url1.jpg" alt="Image 1">-->
-                <h4 class="custom-title">Promoción Especial</h4>
-                <p class="mb-2">El tiempo es limitado, así que te invitamos a contactarnos hoy mismo para obtener más información sobre esta oferta exclusiva o para realizar tu pedido</p><br/>
-                <a class="custom-button" href="https://wa.me/5219241782211" target="_blank">Ver detalles</a>
-
-            </div>
-        </div>
-
-        <div class="col-md-3 col-sm-6 col-12"> <!-- For small screens, make each card take half the width -->
-            <div class="custom-card">     
-                <h4 class="custom-title">Oferta de Laptops</h4>
-                <p class="mb-2">Aprovecha nuestras ofertas especiales en laptops y descubre una nueva forma de trabajar, aprender y disfrutar del entretenimiento digital. Nuestro stock es limitado, así que asegúrate de contactarnos hoy mismo para obtener más información o realizar tu pedido</p><br/>
-                <a class="custom-button" href="https://wa.me/5219241782211" target="_blank">Ver Ofertas</a>
-            </div>
-        </div>        
+      </div>
     </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://http2.mlstatic.com/D_Q_NP_981713-MLA51288771577_082022-O.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title" style="font-size: 24px; font-weight: bold; color: #000; line-height: 1.5;">Mantenimiento de camaras</h5>
+          <p class="card-text">Contáctanos hoy mismo para obtener más información<br/>Nuestro equipo está listo para ayudarte a mantener una vigilancia efectiva y continua</p>
+        </div>
+        <div class="card-footer text-center">
+          <small class="text-muted">
+            <a href="https://wa.me/5219241782211" class="btn btn-primary" target="_blank">Contáctanos</a>
+          </small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://i5.walmartimages.com.mx/mg/gm/3pp/asr/847376a6-bb7e-4dce-8731-097a3b1b94c9.f5abcaaf2f89c0aff85aff54fe3b7d92.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title" style="font-size: 24px; font-weight: bold; color: #000; line-height: 1.5;">Promoción especial</h5>
+          <p class="card-text">El tiempo es limitado, así que te invitamos a contactarnos hoy mismo para obtener más información sobre esta oferta exclusiva o para realizar tu pedido</p>
+        </div>
+        <div class="card-footer text-center">
+          <small class="text-muted">
+            <a href="https://wa.me/5219241782211" class="btn btn-primary" target="_blank">Obtener oferta</a>
+          </small>
+        </div>
+      </div><br>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://www.aboutespanol.com/thmb/6YjV7uscJw227PlfbD0x1eS0__w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Que-Es-Sistema-Operativo-569cb26a5f9b58eba4aae8ae.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title" style="font-size: 24px; font-weight: bold; color: #000; line-height: 1.5;">Sistemas operativos</h5>
+          <p class="card-text">El tiempo es limitado, así que te invitamos a contactarnos hoy mismo para obtener más información sobre esta oferta exclusiva o para realizar tu pedido</p>
+        </div>
+        <div class="card-footer text-center">
+          <small class="text-muted">
+            <a href="https://wa.me/5219241782211" class="btn btn-primary" target="_blank">Obtener oferta</a>
+          </small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://www.creaxid.com.mx/blog/wp-content/uploads/2020/10/software5-1024x356.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title" style="font-size: 24px; font-weight: bold; color: #000; line-height: 1.5;">Paqueteria de office</h5>
+          <p class="card-text">Quieres tomar el control total de tu negocio con sistemas y software personalizados ¡Pregúntanos para obtener más información y descubre cómo nuestras soluciones pueden beneficiar tu empresa<br>ㅤ<br>ㅤ<br></p>
+        </div>
+        <div class="card-footer text-center">
+          <small class="text-muted">
+            <a href="https://wa.me/5219241782211" class="btn btn-primary" target="_blank">Obtener oferta</a>
+          </small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/types-of-software.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="font-size: 24px; font-weight: bold; color: #000; line-height: 1.5;">Promoción especial</h5>
+
+          <p class="card-text">El tiempo es limitado, así que te invitamos a contactarnos hoy mismo para obtener más información sobre esta oferta exclusiva o para realizar tu pedido<br>ㅤ<br></p>
+        </div>
+        <div class="card-footer text-center">
+          <small class="text-muted">
+            <a href="https://wa.me/5219241782211" class="btn btn-primary" target="_blank">Obtener oferta</a>
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-</body><br/><br/><br/><br/>
+
+</body>
 </html>
-<!--Termina los card-->
-
-
-
-
 
 
 
@@ -159,20 +174,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Chatbot PC Systems</title>
+    <title>Asistente PC Systems</title>
 </head>
 <body>
-    <button id="toggle-chatbot-button" class="open-chatbot-button">Chatbot</button>
+    <button id="toggle-chatbot-button" class="open-chatbot-button"></button>
 
     <div id="chatbot-container" class="chatbot-container">
         <div id="chat-header" class="chat-header">
-            Chatbot PC Systems
+            Asistente PC Systems
             <button id="minimize-chatbot-button" class="minimize-chatbot-button">-</button>
             <button id="close-chatbot-button" class="close-chatbot-button">&times;</button>
         </div>
         <div id="chat-messages" class="chat-messages">
             <div class="chatbot">
-                <p><strong>Chatbot PC Systems:</strong> ¡Hola! ¿En qué puedo ayudarte?</p>
+                <p><strong>Asistente PC Systems:</strong> ¡Hola! ¿En qué puedo ayudarte?</p>
             </div>
         </div>
         <input type="text" id="user-input" class="user-input" placeholder="Escribe tu pregunta...">
@@ -181,15 +196,15 @@
 
     <style>
         .open-chatbot-button {
-            position: fixed;
-            bottom: 20px;
-            left: 20px;
-            background-color: #007BFF;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 10px;
-            cursor: pointer;
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        background: url('uploads/chat.png') center center no-repeat; /* Reemplaza 'ruta_de_tu_imagen.png' con la ruta de tu imagen */
+        background-size: contain; /* Puedes ajustar el tamaño según sea necesario */
+        width: 80px; /* Ajusta el ancho según sea necesario */
+        height: 80px; /* Ajusta la altura según sea necesario */
+        border: none;
+        cursor: pointer;
         }
 
         .chatbot-container {
@@ -203,7 +218,7 @@
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
             padding: 10px;
             font-family: Arial, sans-serif;
-            max-width: 400px;
+            max-width: 350px;/* Ajusta lo ancho del chat de asistente*/
         }
 
         .chat-header {
@@ -229,7 +244,7 @@
         }
 
         .chat-messages {
-            height: 200px;
+            height: 300px; /* Ajusta la altura del chat asistente */
             overflow-y: auto;
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -320,39 +335,38 @@
         });
 
         function getChatbotResponse(question) {
-            switch (question.toLowerCase()) {
-              case "hola":
-            return "<strong>Chatbot PC Systems:</strong> ¡Hola! ¿En qué puedo ayudarte hoy?";
-            case "contacto":
-            return "<strong>Chatbot PC Systems:</strong> Puedes contactarnos al teléfono <a href='tel:+5219241782211'>+521 924 178 2211</a> o por correo electrónico a <a href='mailto:rgsystems@gmail.com'>rgsystems@gmail.com</a>.";
-              case "servicios":
-            return "<strong>Chatbot PC Systems:</strong> Ofrecemos servicios de reparación, mantenimiento y venta de equipos de cómputo, incluyendo computadoras de escritorio, portátiles, impresoras y periféricos.";
-        case "horario":
-            return "<strong>Chatbot PC Systems:</strong> Nuestro horario de atención es de lunes a viernes de 9:00 a.m. a 6:00 p.m. y los sábados de 9:00 a.m. a 1:00 p.m.";
-        case "cita":
-            return "<strong>Chatbot PC Systems:</strong> Puedes programar una cita llamando a nuestro número de atención al cliente o utilizando nuestro sistema en línea en nuestro sitio web.";
-        case "tiempo de reparacion":
-            return "<strong>Chatbot PC Systems:</strong> El tiempo de reparación varía según la naturaleza del problema, pero generalmente tratamos de completar las reparaciones en 2-3 días hábiles.";
-        case "reparación en el lugar":
-            return "<strong>Chatbot PC Systems:</strong> Sí, ofrecemos servicios de reparación en el lugar para empresas y organizaciones que requieran asistencia en sus instalaciones.";
-        case "venta de equipos":
-            return "<strong>Chatbot PC Systems:</strong> Sí, vendemos tanto equipos nuevos como usados. Nuestros equipos usados son completamente revisados y restaurados para garantizar su calidad.";
-        case "marcas de equipos":
-            return "<strong>Chatbot PC Systems:</strong> Vendemos una amplia gama de marcas, incluyendo HP, Dell, Lenovo, Acer y muchas otras. Puedes consultar nuestro inventario para conocer las marcas disponibles.";
-        case "garantía":
-            return "<strong>Chatbot PC Systems:</strong> Ofrecemos una garantía de 90 días en todas las reparaciones y una garantía extendida en los equipos nuevos. Puedes obtener más detalles sobre nuestras políticas de garantía en nuestro sitio web.";
-        case "métodos de pago":
-            return "<strong>Chatbot PC Systems:</strong> Aceptamos pagos en efectivo, tarjetas de crédito, débito y transferencias bancarias. También ofrecemos opciones de financiamiento en ciertos casos.";
+        switch (question.toLowerCase()) {
+        case "hola": case "ola": case "hello": case "HOLA":
+            return "<strong>Asistente PC Systems:</strong> ¡Hola! ¿En qué puedo ayudarte hoy?";
+        case "numero de contacto": case "contacto": case "Contacto":
+            return "<strong>Asistente PC Systems:</strong> Puedes contactarnos al teléfono <a href='tel:+5219241782211'>+521 924 178 2211</a> o por correo electrónico a <a href='mailto:rgsystems@gmail.com'>rgsystems@gmail.com</a>.";
+        case "servicios": case "que servicios ofrece": case "cuales son los servicios":
+            return "<strong>Asistente PC Systems:</strong> Ofrecemos servicios de reparación, mantenimiento y venta de equipos de cómputo, incluyendo computadoras de escritorio, portátiles, impresoras y periféricos.";
+        case "horario": case "HORARIO": case "Horario": case "Horario de cerrado":
+            return "<strong>Asistente PC Systems:</strong> Nuestro horario de atención es de lunes a viernes de 9:00 a.m. a 6:00 p.m. y los sábados de 9:00 a.m. a 1:00 p.m.";
+        case "cita": case "Quiero una cita": case "quiero una cita":
+            return "<strong>Asistente PC Systems:</strong> Puedes programar una cita llamando a nuestro número de atención al cliente o utilizando nuestro sistema en línea en nuestro sitio web. agenda Tu cita";
+        case "tiempo de reparacion": case "Cuantos dias lleva tiempo de reparacion": case "Tiempo de reparacion":
+            return "<strong>Asistente PC Systems:</strong> El tiempo de reparación varía según la naturaleza del problema, pero generalmente tratamos de completar las reparaciones en 2-3 días hábiles.";
+        case "reparación en el lugar": case "donde se repara los equipos o en que lugar": case "en donde reparan los equipos": case "o en que lugar":
+            return "<strong>Asistente PC Systems:</strong> Sí, ofrecemos servicios de reparación en el lugar para empresas y organizaciones que requieran asistencia en sus instalaciones.";
+        case "venta de equipos": case "que equipos tiene en venta": case "Equipos de ventas": case "que equipos me recomienda":
+            return "<strong>Asistente PC Systems:</strong> Sí, vendemos tanto equipos nuevos como usados. Nuestros equipos usados son completamente revisados y restaurados para garantizar su calidad.";
+        case "cuales son las camaras en ventas": case "que camaras me recomiendan": case "camaras":
+            return "<strong>Asistente PC Systems:</strong> para ello favor de comunicarse a este numero de telefono <a href='tel:+5219241782211'>+521 924 178 2211</a> o por correo electrónico a <a href='mailto:rgsystems@gmail.com'>rgsystems@gmail.com</a>.";         
+            case "marcas de equipos": case "las marcas de equipos": case "Marcas de equipos": case "ventas de equipos":
+            return "<strong>Asistente PC Systems:</strong> Vendemos una amplia gama de marcas, incluyendo HP, Dell, Lenovo, Acer y muchas otras. Puedes consultar nuestro inventario para conocer las marcas disponibles.";
+        case "seguro": case "garantia": case "cuanto tiempo de garantia nos da al año": case "Limite de la garantia del equipo": case "a cuantos plasos son las garantias":
+            return "<strong>Asistente PC Systems:</strong> Ofrecemos una garantía de 90 días en todas las reparaciones y una garantía extendida en los equipos nuevos. Puedes obtener más detalles sobre nuestras políticas de garantía en nuestro sitio web. o a este numero de telefono<a href='tel:+5219241782211'>Llamar al número</a> <a href='https://wa.me/5219241782211'>Enviar mensaje de WhatsApp</a>";
+            case "Metodos de pagos": case "metodos de pago": case "metodos de pagos": case "que metodo de pagos tienen": case "como puedo pagar": case "que tarjetas validan":
+            return "<strong>Asistente PC Systems:</strong> Aceptamos pagos en efectivo, tarjetas de crédito, débito y transferencias bancarias. También ofrecemos opciones de financiamiento en ciertos casos.<a href='https://wa.me/5219241782211'>Enviar mensaje de WhatsApp</a>";
         case "descuentos para clientes frecuentes":
-            return "<strong>Chatbot PC Systems:</strong> Sí, ofrecemos descuentos y programas de lealtad para clientes frecuentes. Puedes obtener más información sobre estos programas en nuestra tienda.";       
-        case "horario":
-            return "<strong>Chatbot PC Systems:</strong> Nuestro horario de atención es de lunes a viernes, de 9:00 AM a 5:00 PM.";
-        case "contacto":
-            return "<strong>Chatbot PC Systems:</strong> Puedes contactarnos al teléfono (123) 456-7890 o por correo electrónico a info@pcsystems.com.";
-            default:
-            return "<strong>Chatbot PC Systems:</strong> Lo siento, no puedo responder esa pregunta. ¿Hay algo más en lo que pueda ayudarte?";
-            }
-        }
+            return "<strong>Asistente PC Systems:</strong> Sí, ofrecemos descuentos y programas de lealtad para clientes frecuentes. Puedes obtener más información sobre estos programas en nuestra tienda.";
+        default:
+            return "<strong>Asistente PC Systems:</strong> Lo siento, no puedo responder esa pregunta. ¿Hay algo más en lo que pueda ayudarte?";
+    }
+}
+
 
         function displayMessage(message, sender) {
             const messageElement = document.createElement("div");
@@ -375,7 +389,7 @@
             width: 100%;
             height: 300px; /* Ajusta la altura según tu preferencia */
             display: flex;
-            justify-content: flex-end;
+            justify-content: center; /* Cambia de flex-end a center para centrar el mapa */
         }
 
         #map {
@@ -397,7 +411,8 @@
         </iframe>
     </div>
 </body>
-</html><br/>
+</html><br>
+
 <!--- Final de Google Maps --->
 
 
@@ -464,7 +479,7 @@
         <div class="footer-section">
             <h3>Nosotros</h3>
             <ul>
-                <li><a href="#">Qué es Pc Systems</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61552364255322">Qué es Pc Systems</a></li>
                 <li><a href="#">Términos y condiciones</a></li>
                 <li><a href="#">Política de privacidad</a></li>
                 <li><a href="#">Trabaja con nosotros</a></li>
@@ -473,16 +488,20 @@
         <div class="footer-section">
             <h3>Plataforma</h3>
             <ul>
-                <li><a href="#">Chatbot Web</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Chat Web</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61552364255322">Facebook</a></li>
                 <li><a href="#">WhatsApp Web</a></li>
             </ul>
         </div>
         <div class="footer-section">
             <h3>Soporte</h3>
-            <p>rgsystems@gmail.com<br>+521 924 178 2211</p>
-        </div>
-    </div>
+            <p>
+  <a href="mailto:rgsystems@gmail.com">rgsystems@gmail.com</a><br>
+  <a href="https://wa.me/9241782211">924 178 2211</a><br>
+  <a href="https://www.facebook.com/profile.php?id=61552364255322" target="_blank"></a>
+</p>
+</div>
+</div>
 </footer>
 
 
