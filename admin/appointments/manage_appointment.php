@@ -29,8 +29,8 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
             <input type="hidden" name="id" value="<?php echo isset($id) ? $id : '' ?>">
             <input type="hidden" name="patient_id" value="<?php echo isset($patient_id) ? $patient_id : '' ?>">
                 <div class="form-group">
-                    <label for="name" class="control-label">Nombre Completo</label>
-                    <input type="text" class="form-control" name="name" value="<?php echo isset($patient['name']) ? $patient['name'] : '' ?>" required>
+                        <label for="name" class="control-label">Nombre Completo</label>
+                        <input type="text" class="form-control" name="name" value="<?php echo isset($patient['name']) ? $patient['name'] : '' ?>" required>
                 </div>
                 <div class="form-group">
                     <label for="email" class="control-label">Correo Electrónico</label>
@@ -48,7 +48,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="dob" class="control-label">Fecha de consulta</label>
+                    <label for="dob" class="control-label">Dia de la consulta</label>
                     <input type="date" class="form-control" name="dob" value="<?php echo isset($patient['dob']) ? $patient['dob'] : '' ?>"  required>
                 </div>
 
@@ -105,7 +105,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <input type="hidden" name="ailment" value="">
             <?php endif; ?>
             <div class="form-group">
-                <label for="date_sched" class="control-label">Agenda Programada</label>
+                <label for="date_sched" class="control-label">Fecha Aproximada</label>
                 <input type="datetime-local" class="form-control" name="date_sched" value="<?php echo isset($date_sched)? date("Y-m-d\TH:i",strtotime($date_sched)) : "" ?>" required>
           
 

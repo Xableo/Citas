@@ -111,6 +111,9 @@
 									<!-- <a class="dropdown-item" href=".././EnviarSMS/Enviar.php"> Enviar SMS</a> -->
 									<a class="dropdown-item send_msg" href="javascript:void(0)" data-id="<?php echo $row['aid'] ?>"> Mensaje</a>
 
+									<a class="dropdown-item call" href="javascript:void(0)" data-id="<?php echo $row['aid'] ?>"> LLamar</a>
+
+
 				                  </div>
 							</td>
 						</tr>
@@ -135,6 +138,10 @@
 		$('.send_msg').click(function(){
 			uni_modal("Enviar mensaje privado","appointments/send_msg.php?id="+$(this).attr('data-id'))
 		})
+		$('.call').click(function(){
+			uni_modal("LLamar numero privado","appointments/call.php?id="+$(this).attr('data-id'))
+		})
+		
 		$('#selectAll').change(function(){
 			// if($(this).is(":checked") == true){
 			// 	$('.invCheck').prop("checked",true)

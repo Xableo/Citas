@@ -22,14 +22,14 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 }
 </style>
 <div class="container-fluid">
-    <p><b>Agenda Programada:</b> <?php echo date("F d, Y",strtotime($date_sched))  ?></p>
+    <p><b>Fecha Aproximada:</b> <?php echo date("F d, Y",strtotime($date_sched))  ?></p>
     <p><b>Nombre:</b> <?php echo $patient['name'] ?></p>
-    <p><b>Sexo:</b> <?php echo ucwords($patient['gender']) ?></p>
-    <p><b>Fecha de consulta:</b> <?php echo date("F d, Y",strtotime($patient['dob'])) ?></p>
+    <p><b>Dirección:</b> <?php echo $patient['address'] ?></p>
     <p><b>Numero de Contacto:</b> <?php echo $patient['contact'] ?></p>
     <p><b>Email:</b> <?php echo $patient['email'] ?></p>
-    <p><b>Dirección:</b> <?php echo $patient['address'] ?></p>
-    <p><b>Nombre del equipo:</b> <?php echo $equipo ?></p>
+    <p><b>Sexo:</b> <?php echo ucwords($patient['gender']) ?></p>
+    <p><b>Dia de la consulta:</b> <?php echo date("F d, Y",strtotime($patient['dob'])) ?></p>
+    <p><b>Nombre y Password:</b> <?php echo $equipo ?></p>
     <p><b>Rasgos y fallas:</b> <?php echo $ailment ?></p>
     <p><b>Accesorios:</b> <?php echo $accesorios ?></p>
     <p><b>Estado:</b>

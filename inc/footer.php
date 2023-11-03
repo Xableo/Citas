@@ -162,7 +162,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div><br>
 </div>
 
 </body>
@@ -377,6 +377,14 @@
     </script>
 </body>
 </html>
+
+<!-- Formulario ---->
+  
+
+
+
+<!-- Termino del Formulario ---->
+
 
 
 <!--- Inicio de Google Maps --->

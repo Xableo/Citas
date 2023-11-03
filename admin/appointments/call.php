@@ -27,14 +27,13 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
         <div class="col-12">
                 
             <div class="form-group">
-                <label for="equipo" class="control-label">Mensaje a <?php echo $patient['contact'] ?></label>
+                <label for="equipo" class="control-label">LLamar a <?php echo $patient['contact'] ?></label>
                 <textarea class="form-control" id="msg" rows="3" required></textarea>
             </div>
 
         </div>
         <div class="form-group d-flex justify-content-end w-100 form-group">
-            <a id="btn-send-msg" href="https://wa.me/+52<?php echo $patient['contact'] ?>/?text=" target='_blank' class='btn btn-md btn-success'>Enviar</a>
-            
+        <a id="btn-send-msg" href="tel:+52<?php echo $patient['contact'] ?>" class='btn btn-md btn-success'>Llamar</a>            
             <button class="btn-light btn ml-2" id='msg-cancel' type="button" data-dismiss="modal">Cancelar</button>
         </div>
     </div>
