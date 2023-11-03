@@ -26,7 +26,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
     <form id="appointment_form" class="py-2">
     <div class="row" id="appointment">
         <div class="col-6" id="frm-field">
-            <input type="hidden" name="id" value="<?php echo isset($id) ? $id : '' ?>">
+            <input type="hidden" name="id" value="<?php echo isset($patient_id) ? $patient_id : '' ?>">
             <input type="hidden" name="patient_id" value="<?php echo isset($patient_id) ? $patient_id : '' ?>">
                 <div class="form-group">
                     <label for="name" class="control-label">Nombre Completo</label>

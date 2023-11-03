@@ -55,6 +55,9 @@ Class Master extends DBConnection {
 		$sql = "INSERT INTO `patient_list` set name = '{$name}'  ";
 		else
 		$sql = "UPDATE `patient_list` set name = '{$name}' where id = '{$id}'  ";
+		
+		// echo json_encode($sql);
+		// $save_inv = true;
 		$save_inv = $this->conn->query($sql);
 		$this->capture_err();
 		if($save_inv){
@@ -62,8 +65,10 @@ Class Master extends DBConnection {
 			if(empty($id))
 			$sql = "INSERT INTO `appointments` set date_sched = '{$date_sched}',patient_id = '{$patient_id}',`status` = '{$status}',`ailment` = '{$ailment}',`equipo` = '{$equipo}',`accesorios` = '{$accesorios}' ";
 			else
-			$sql = "UPDATE `appointments` set date_sched = '{$date_sched}',patient_id = '{$patient_id}',`status` = '{$status}',`ailment` = '{$ailment}',`accesorios` = '{$accesorios}',`equipo` = '{$equipo}' where id = '{$id}' ";
+			$sql = "UPDATE `appointments` set date_sched = '{$date_sched}', `status` = '{$status}',`ailment` = '{$ailment}',`accesorios` = '{$accesorios}',`equipo` = '{$equipo}' where patient_id = '{$id}' ";
 
+			// echo json_encode($sql);
+			// return;
 			$save_sched = $this->conn->query($sql);
 			$this->capture_err();
 			$data = "";

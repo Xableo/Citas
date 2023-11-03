@@ -64,7 +64,6 @@
 				
 				<tbody>
 					<?php 
-					$i = 1;
 						$qry = $conn->query("SELECT p.*,a.date_sched,a.status,a.id as aid from `patient_list` p inner join `appointments` a on p.id = a.patient_id  order by unix_timestamp(a.date_sched) desc ");
 						while($row = $qry->fetch_assoc()):
 					?>
@@ -75,7 +74,7 @@
 							<input type="checkbox" class="form-check-input invCheck" value="<?php echo $row['id'] ?>">
 							</div>
 							</td>
-							<td class="text-center"><?php echo $i++; ?></td>
+							<td class="text-center"><?php echo $row['id'] ?></td>
 							<td><?php echo $row['name'] ?></td>
 							<td><?php echo date("M d,Y h:i A",strtotime($row['date_sched'])) ?></td>
 							
@@ -99,7 +98,7 @@
 								?>
 
 							</td>
-							<td align="center">
+							<td>
 								 <button type="button" class="btn btn-flat btn-default btn-sm dropdown-toggle dropdown-icon" data-toggle="dropdown">
 				                  		Acción
 				                    <span class="sr-only">Alternar menú desplegable</span>
