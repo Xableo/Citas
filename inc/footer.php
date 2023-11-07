@@ -60,123 +60,185 @@
 </script>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3y*vcJ5VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/01e994df18.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="inc/Style.css">
+    <title></title>
 </head>
-<style>
-    /* Estilo para las imágenes en las tarjetas */
-    .card img {
-      max-width: 200px; /* Ancho máximo de la imagen */
-      height: auto; /* Mantener la proporción original */
-    }
+<body>
     
-  </style>
-<body>
+<div class="row mx-5">
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="card" style="width: 90%;">
+      <img src="inc/imagenes/compu-hp.png" class="card-img-top figure-img img-fluid rounded" alt="Imagen tarjeta">
+      <div class="card-body">
+        <h4><strong>Ventas de computadoras</strong></h4>
+        <p class="card-text">
+        ¡Lleva tu productividad a nuevas alturas con nuestras laptops de última generación!
+        </p>
+        <div class="text-center"> 
+          <a href="https://wa.me/5219241782211" class="btn btn-outline-info">Obtener oferta</a>
+        </div>
+       </div>
+    </div>
 
-<div class="container">
-  <div class="row row-cols-1 row-cols-md-3 g6">
-    <div class="col">
-      <div class="card">
-        <img src="https://expertosenhogar.com/wp-content/uploads/2020/08/las-10-mejores-camaras-de-vigilancia-exterior-con-zoom-optico-que-no-te-arrepentiras-de-comprar.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title" style="font-size: 24px; font-weight: bold; color: #000; line-height: 1.5;">Camaras de vigilancia</h5>
-          <p class="card-text">Te recomendamos encarecidamente considerar la instalación de cámaras de vigilancia en tu propiedad.<br/> Aquí te contamos por qué</p>
+    </div> 
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="card" style="width: 90%;">
+    <img src="inc/imagenes/ventas-camaras.jpg" class="card-img-top figure-img img-fluid rounded" alt="Imagen tarjeta">
+      <div class="card-body">
+        <h4><strong>Ventas de camaras</strong></h4>
+        <p class="card-text">
+        "Protege lo que más te importa con nuestras cámaras de vigilancia de alta calidad. Siempre con un ojo en tu seguridad."
+        </p>
+        <div class="text-center"> 
+          <a href="https://wa.me/5219241782211" class="btn btn-outline-info">Obtener oferta</a>
         </div>
-        <div class="card-footer text-center">
-          <small class="text-muted">
-            <a href="https://wa.me/5219241782211" class="btn btn-primary" target="_blank">Más información</a>
-          </small>
+        
+      </div> 
+    </div>
+    
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="card" style="width: 90%;">
+    <img src="inc/imagenes/ventas-impresoras.jpg" class="card-img-top figure-img img-fluid rounded" alt="Imagen tarjeta">
+      <div class="card-body">
+        <h4><strong>Ventas de impresoras</strong></h4>
+        <p class="card-text">
+        "Imprime calidad y eficiencia en cada página. Descubre nuestras impresoras, la solución perfecta para tus necesidades de impresión."
+        </p>
+        <div class="text-center"> 
+          <a href="https://wa.me/5219241782211" class="btn btn-outline-info">Obtener oferta</a>
+        </div>      
+      </div>   
+    </div>
+    
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="card" style="width: 90%;">
+    <img src="inc/imagenes/celulares.jpg" class="card-img-top figure-img img-fluid rounded" alt="Imagen tarjeta">
+      <div class="card-body">
+        <h4><strong>Ventas de Celulares</strong></h4>        
+        <p class="card-text">
+        "Conecta con el mundo a través de la tecnología de vanguardia. Descubre nuestros últimos modelos de teléfonos celulares y lleva la innovación contigo."
+        </p>
+        <div class="text-center"> 
+          <a href="https://wa.me/5219241782211" class="btn btn-outline-info">Obtener oferta</a>
         </div>
       </div>
     </div>
-    <div class="col">
-      <div class="card">
-        <img src="https://http2.mlstatic.com/D_Q_NP_981713-MLA51288771577_082022-O.webp" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title" style="font-size: 24px; font-weight: bold; color: #000; line-height: 1.5;">Mantenimiento de camaras</h5>
-          <p class="card-text">Contáctanos hoy mismo para obtener más información<br/>Nuestro equipo está listo para ayudarte a mantener una vigilancia efectiva y continua</p>
-        </div>
-        <div class="card-footer text-center">
-          <small class="text-muted">
-            <a href="https://wa.me/5219241782211" class="btn btn-primary" target="_blank">Contáctanos</a>
-          </small>
-        </div>
-      </div>
     </div>
-    <div class="col">
-      <div class="card">
-        <img src="https://i5.walmartimages.com.mx/mg/gm/3pp/asr/847376a6-bb7e-4dce-8731-097a3b1b94c9.f5abcaaf2f89c0aff85aff54fe3b7d92.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title" style="font-size: 24px; font-weight: bold; color: #000; line-height: 1.5;">Promoción especial</h5>
-          <p class="card-text">El tiempo es limitado, así que te invitamos a contactarnos hoy mismo para obtener más información sobre esta oferta exclusiva o para realizar tu pedido</p>
-        </div>
-        <div class="card-footer text-center">
-          <small class="text-muted">
-            <a href="https://wa.me/5219241782211" class="btn btn-primary" target="_blank">Obtener oferta</a>
-          </small>
-        </div>
-      </div><br>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="https://www.aboutespanol.com/thmb/6YjV7uscJw227PlfbD0x1eS0__w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Que-Es-Sistema-Operativo-569cb26a5f9b58eba4aae8ae.png" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title" style="font-size: 24px; font-weight: bold; color: #000; line-height: 1.5;">Sistemas operativos</h5>
-          <p class="card-text">El tiempo es limitado, así que te invitamos a contactarnos hoy mismo para obtener más información sobre esta oferta exclusiva o para realizar tu pedido</p>
-        </div>
-        <div class="card-footer text-center">
-          <small class="text-muted">
-            <a href="https://wa.me/5219241782211" class="btn btn-primary" target="_blank">Obtener oferta</a>
-          </small>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="https://www.creaxid.com.mx/blog/wp-content/uploads/2020/10/software5-1024x356.png" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title" style="font-size: 24px; font-weight: bold; color: #000; line-height: 1.5;">Paqueteria de office</h5>
-          <p class="card-text">Quieres tomar el control total de tu negocio con sistemas y software personalizados ¡Pregúntanos para obtener más información y descubre cómo nuestras soluciones pueden beneficiar tu empresa<br>ㅤ<br>ㅤ<br></p>
-        </div>
-        <div class="card-footer text-center">
-          <small class="text-muted">
-            <a href="https://wa.me/5219241782211" class="btn btn-primary" target="_blank">Obtener oferta</a>
-          </small>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/types-of-software.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title" style="font-size: 24px; font-weight: bold; color: #000; line-height: 1.5;">Promoción especial</h5>
+    </div><br>
 
-          <p class="card-text">El tiempo es limitado, así que te invitamos a contactarnos hoy mismo para obtener más información sobre esta oferta exclusiva o para realizar tu pedido<br>ㅤ<br></p>
+
+        
+<div class="row mx-5">
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="card" style="width: 90%;">
+      <img src="inc/imagenes/quale-sistema-operativo.png" class="card-img-top figure-img img-fluid rounded" alt="Imagen tarjeta">
+      <div class="card-body">
+        <h4><strong>Sistemas Operativos</strong></h4>
+        <p class="card-text">
+          El tiempo es limitado, así que te invitamos a contactarnos hoy mismo para obtener más información sobre esta oferta exclusiva o para realizar tu pedido
+        </p>
+        <div class="text-center"> 
+          <a href="https://wa.me/5219241782211" class="btn btn-outline-info">Obtener oferta</a>
         </div>
-        <div class="card-footer text-center">
-          <small class="text-muted">
-            <a href="https://wa.me/5219241782211" class="btn btn-primary" target="_blank">Obtener oferta</a>
-          </small>
+        </div>
+    </div>
+
+    </div> 
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="card" style="width: 90%;">
+      <img src="inc/imagenes/ventas-camaras.jpg" class=" card-img-top figure-img img-fluid rounded" alt="Imagen tarjeta">
+      <div class="card-body">
+        <h4><strong>Mantenimiento de Camaras</strong></h4>
+        <p class="card-text">
+          Contáctanos hoy mismo para obtener más información<br/>Nuestro equipo está listo para ayudarte a mantener una vigilancia efectiva y continua
+        </p>
+        <div class="text-center"> 
+          <a href="https://wa.me/5219241782211" class="btn btn-outline-info">Obtener oferta</a>
+        </div>
+        </div> 
+    </div>
+    
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="card" style="width: 95%;">
+      <img src="inc/imagenes/Office.png" class="card-img-top figure-img img-fluid rounded" alt="Imagen tarjeta">
+      <div class="card-body">
+        <h4><strong>Paqueteria de Office</strong></h4>
+        <p class="card-text">
+          Quieres tener el control completo de tu negocio con sistemas y software personalizados, pregunta haciendo clip Aquí
+        </p>
+        <div class="text-center"> 
+          <a href="https://wa.me/5219241782211" class="btn btn-outline-info">Obtener oferta</a>
+        </div>
+      </div>   
+    </div>
+    
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3">
+    <div class="card" style="width: 95%;">
+      <img src="inc/imagenes/mantenimiento-equipos.png" class="card-img-top figure-img img-fluid rounded" alt="Imagen tarjeta">
+      <div class="card-body">
+        <h4><strong>Promociones Especial</strong></h4>        
+        <p class="card-text">
+          El tiempo es limitado, así que te invitamos a contactarnos hoy mismo para obtener más información sobre esta oferta exclusiva o para realizar tu pedido 
+        </p>
+        <div class="text-center"> 
+          <a href="https://wa.me/5219241782211" class="btn btn-outline-info">Obtener oferta</a>
         </div>
       </div>
     </div>
-  </div><br>
+    </div>
+    </div><br>
+
+  <!-- Google maps -->
+  <div class="card  mb-3 ps-5 ms-5" style="height:20em; width: 90%; @media (max-width: 412) {
+  height: 20em; /* Cambia la altura en dispositivos móviles */
+  width: auto; /* Ajusta el ancho al 100% del tamaño de la pantalla en dispositivos móviles */
+}">
+  <div class="row g-0">
+    <div class="col-md-4 col-lg-4 col-sm-12">
+        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3795.621334284227!2d-94.9118405!3d17.949807099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ea03b0b983efcf%3A0xb1fa53bee9dfedc1!2sPC%20SYSTEMS!5e0!3m2!1ses!2smx!4v1697574120654!5m2!1ses!2smx" 
+            width="100%" /* Ajusta el ancho según tu preferencia */
+            height="300" /* Ajusta la altura según tu preferencia */
+            style="border:0;" 
+            allowfullscreen="" 
+            class="rounded-start"
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            >
+        </iframe>
+    </div>
+    <div class="col-md-6 col-lg-6 col-sm-12 ps-5 ms-5">
+      <div class="card-body">
+        <h5 class="card-title">Nos encontramos en...</h5>
+        <p class="card-text">
+        <i class="fa-solid fa-location-dot"></i>
+        Calle Vicente Guerrero Col. Centro #502 Cp. 96000 Acayucan Ver.</p>
+        <p class="card-text">
+        <i class="fa-solid fa-envelope"></i>
+        rgsystems@gmail.com</p>
+        <p class="card-text">
+        <i class="fa-solid fa-phone"></i>
+        924 178 2211</p>
+
+        
+      </div>
+    </div>
+  </div>
 </div>
-
-</body>
-</html>
+      <!-- Termina Google maps -->
 
 
 
-<!--Inicio del chatbot-->
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Asistente PC Systems</title>
-</head>
-<body>
+<!-- Chat Inteligente -->
     <button id="toggle-chatbot-button" class="open-chatbot-button"></button>
 
     <div id="chatbot-container" class="chatbot-container">
@@ -193,98 +255,6 @@
         <input type="text" id="user-input" class="user-input" placeholder="Escribe tu pregunta...">
         <button id="send-button" class="send-button">Enviar</button>
     </div>
-
-    <style>
-        .open-chatbot-button {
-        position: fixed;
-        bottom: 20px;
-        left: 20px;
-        background: url('uploads/chat.png') center center no-repeat; /* Reemplaza 'ruta_de_tu_imagen.png' con la ruta de tu imagen */
-        background-size: contain; /* Puedes ajustar el tamaño según sea necesario */
-        width: 80px; /* Ajusta el ancho según sea necesario */
-        height: 80px; /* Ajusta la altura según sea necesario */
-        border: none;
-        cursor: pointer;
-        }
-
-        .chatbot-container {
-            display: none;
-            position: fixed;
-            bottom: 20px;
-            left: 20px;
-            background-color: #f4f4f4;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-            padding: 10px;
-            font-family: Arial, sans-serif;
-            max-width: 350px;/* Ajusta lo ancho del chat de asistente*/
-        }
-
-        .chat-header {
-            background-color: #007BFF;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            font-size: 16px;
-            position: relative;
-        }
-
-        .chat-header button {
-            position: absolute;
-            top: 5px;
-            right: 5px;
-            background-color: #007BFF;
-            color: #fff;
-            border: none;
-            padding: 5px 10px;
-            border-radius: 50%;
-            cursor: pointer;
-            margin-left: 5px;
-        }
-
-        .chat-messages {
-            height: 300px; /* Ajusta la altura del chat asistente */
-            overflow-y: auto;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 10px;
-            background-color: #fff;
-        }
-
-        .user {
-            text-align: right;
-            color: #007BFF;
-            margin: 5px 0;
-        }
-
-        .chatbot {
-            text-align: left;
-            color: #333;
-            margin: 5px 0;
-            background-color: #f2f2f2;
-            padding: 5px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
-
-        .user-input {
-            width: 70%;
-            padding: 5px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-        }
-
-        .send-button {
-            background-color: #007BFF;
-            color: #fff;
-            border: none;
-            padding: 5px 10px;
-            border-radius: 3px;
-            cursor: pointer;
-        }
-    </style>
 
     <script>
         const toggleChatbotButton = document.getElementById("toggle-chatbot-button");
@@ -375,114 +345,18 @@
             chatMessages.appendChild(messageElement);
         }
     </script>
-</body>
-</html>
+<!-- Termina Chat Inteligente -->
+    
 
-<!-- Formulario ---->
-  
-
-
-
-<!-- Termino del Formulario ---->
-
-
-
-<!--- Inicio de Google Maps --->
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Mapa de Ubicación</title>
-    <style>
-        #map-container {
-            width: 100%;
-            height: 300px; /* Ajusta la altura según tu preferencia */
-            display: flex;
-            justify-content: center; /* Cambia de flex-end a center para centrar el mapa */
-        }
-
-        #map {
-            width: 40%; /* Ajusta el porcentaje según tu preferencia */
-            height: 100%;
-        }
-    </style>
-</head>
-<body>
-    <div id="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3795.621334284227!2d-94.9118405!3d17.949807099999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ea03b0b983efcf%3A0xb1fa53bee9dfedc1!2sPC%20SYSTEMS!5e0!3m2!1ses!2smx!4v1697574120654!5m2!1ses!2smx" 
-            width="600" /* Ajusta el ancho según tu preferencia */
-            height="300" /* Ajusta la altura según tu preferencia */
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade"
-            id="map">
-        </iframe>
-    </div>
-</body>
-</html><br>
-
-<!--- Final de Google Maps --->
-
-
-<!-- Footer-->
+    
+<!-- Pie de la pagina-->
 <footer class="py-5 bg-dark">
-            <div class="container">
-              <!--<p class="m-0 text-center text-white"><a href="https://www.facebook.com/profile.php?id=100066720141305">Facebook</a></p>  -->        
-            </div>
-
-<style>
-    footer {
-        background-color: #212529;
-        color: #fff;
-        padding: 15px;
-        text-align: center; /* Centra el texto en el pie de página */
-    }
-
-    .footer-sections {
-        display: flex;
-        flex-wrap: wrap; /* Asegura que las secciones se ajusten a la pantalla */
-        justify-content: space-between;
-        align-items: stretch; /* Alinea las secciones para que tengan la misma altura */
-    }
-
-    .footer-section {
-        flex: 1;
-        margin: 10px; /* Agrega un margen uniforme alrededor de las secciones */
-        text-align: center; /* Alinea el texto a la izquierda */
-        display: flex; /* Utiliza flexbox para alinear elementos verticalmente */
-        flex-direction: column; /* Alinea elementos verticalmente */
-    }
-
-    .footer-section h3 {
-        font-size: 1.5rem;
-        margin: 0;
-        margin-bottom: 10px; /* Espacio entre el encabezado y el párrafo */
-    }
-
-    .footer-section p {
-        font-size: 1rem;
-    }
-
-    .footer-section ul {
-        list-style: none;
-        padding: 0;
-    }
-
-    .footer-section li {
-        margin-bottom: 7px;
-    }
-
-    .footer-section a {
-        color: #fff;
-        text-decoration: none;
-    }
-</style>
-
+ <div class="container"></div>
 <footer>
     <div class="footer-sections">
         <div class="footer-section">
             <h3>Pc Systems</h3>
-            <p>Todos los derechos reservados<br>&copy; 2023 Pc Systems y computacion</p>
+            <p>Todos los derechos reservados<br>&copy; Copyright 2023- Todos los derechisPc Systems y computacion</p>
         </div>
         <div class="footer-section">
             <h3>Nosotros</h3>
@@ -496,7 +370,7 @@
         <div class="footer-section">
             <h3>Plataforma</h3>
             <ul>
-                <li><a href="#">Chat Web</a></li>
+                <li><a href="#">Asistente en linea</a></li>
                 <li><a href="https://www.facebook.com/profile.php?id=61552364255322">Facebook</a></li>
                 <li><a href="#">WhatsApp Web</a></li>
             </ul>
@@ -511,11 +385,12 @@
 </div>
 </div>
 </footer>
-
-
 </footer>
+<!-- Termina pie de pagina -->
 
-   
+</body>
+</html>
+
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
     <script>
       $.widget.bridge('uibutton', $.ui.button)

@@ -109,8 +109,9 @@
 									<a class="dropdown-item edit_data" href="javascript:void(0)" data-id="<?php echo $row['aid'] ?>"> Editar</a>
 									<!-- <a class="dropdown-item" href=".././EnviarSMS/Enviar.php"> Enviar SMS</a> -->
 									<a class="dropdown-item send_msg" href="javascript:void(0)" data-id="<?php echo $row['aid'] ?>"> Mensaje</a>
-
 									<a class="dropdown-item call" href="javascript:void(0)" data-id="<?php echo $row['aid'] ?>"> LLamar</a>
+									<a class="dropdown-item Email" href="javascript:void(0)" data-id="<?php echo $row['aid'] ?>"> Correo Electronico</a>
+
 
 
 				                  </div>
@@ -139,6 +140,9 @@
 		})
 		$('.call').click(function(){
 			uni_modal("LLamar numero privado","appointments/call.php?id="+$(this).attr('data-id'))
+		})
+		$('.Email').click(function(){
+			uni_modal("Enviar Mensaje por Email","appointments/Email.php?id="+$(this).attr('data-id'))
 		})
 		
 		$('#selectAll').change(function(){

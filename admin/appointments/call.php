@@ -25,24 +25,11 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
-                
-            <div class="form-group">
-                <label for="equipo" class="control-label">LLamar a <?php echo $patient['contact'] ?></label>
-                <textarea class="form-control" id="msg" rows="3" required></textarea>
-            </div>
-
+            <label for="equipo" class="control-label">LLamar a <?php echo $patient['contact'] ?></label>
         </div>
         <div class="form-group d-flex justify-content-end w-100 form-group">
-        <a id="btn-send-msg" href="tel:+52<?php echo $patient['contact'] ?>" class='btn btn-md btn-success'>Llamar</a>            
+            <a id="btn-send-msg" href="tel:+52<?php echo $patient['contact'] ?>" class='btn btn-md btn-success'>Llamar</a>            
             <button class="btn-light btn ml-2" id='msg-cancel' type="button" data-dismiss="modal">Cancelar</button>
         </div>
     </div>
 </div>
-
-<script>
-    var url = $("#btn-send-msg").attr("href");
-
-    $(document).on("keyup", "#msg", function() {
-        $("#btn-send-msg").attr("href", url + $("#msg").val()); 
-    });
-</script>

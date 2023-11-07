@@ -4,7 +4,9 @@
         <div class="text-center text-white">
             <h1 class="display-4 fw-bolder"><?php echo $_settings->info('name') ?></h1>
             <p class="lead fw-normal text-white-50 mb-0">
-                <button class="btn btn-sm btn-primary" type="button" id="create_appointment">Agenda tu Ahora</button>
+                <button class="btn btn-outline-light" type="button" id="create_appointment">
+                <i class="fa-solid fa-file" ></i> Agendar una cita</button>
+                
             </p>
         </div>
     </div>

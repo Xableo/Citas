@@ -1,0 +1,164 @@
+h4 {
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+/*Google maps*/
+#map-container {
+    width: 100%;
+    height: 300px; /* Ajusta la altura según tu preferencia */
+    display: flex;
+    justify-content: left; /* Cambia de flex-end a center para centrar el mapa */
+    margin-left: 20px; /* Ajusta el valor para mover hacia la derecha */
+
+}
+
+#map {
+    width: 40%; /* Ajusta el porcentaje según tu preferencia */
+    height: 100%;
+}
+/*Termina Google maps*/
+
+
+/*Asistente en linea*/
+.open-chatbot-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: url('imagenes/chat.png') center center no-repeat; /* Reemplaza 'ruta_de_tu_imagen.png' con la ruta de tu imagen */
+    background-size: contain; /* Puedes ajustar el tamaño según sea necesario */
+    width: 80px; /* Ajusta el ancho según sea necesario */
+    height: 80px; /* Ajusta la altura según sea necesario */
+    border: none;
+    cursor: pointer;
+    }
+
+    .chatbot-container {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        background-color: #f4f4f4;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        max-width: 350px;/* Ajusta lo ancho del chat de asistente*/
+    }
+
+    .chat-header {
+        background-color: #007BFF;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+        position: relative;
+    }
+
+    .chat-header button {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+
+    .chat-messages {
+        height: 300px; /* Ajusta la altura del chat asistente */
+        overflow-y: auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #fff;
+    }
+
+    .user {
+        text-align: right;
+        color: #007BFF;
+        margin: 5px 0;
+    }
+
+    .chatbot {
+        text-align: left;
+        color: #333;
+        margin: 5px 0;
+        background-color: #f2f2f2;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    .user-input {
+        width: 70%;
+        padding: 5px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    .send-button {
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+/*Termina mi Asistente en linea*/
+
+/*Pie de pagina*/
+footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 15px;
+    text-align: center; /* Centra el texto en el pie de página */
+}
+
+.footer-sections {
+    display: flex;
+    flex-wrap: wrap; /* Asegura que las secciones se ajusten a la pantalla */
+    justify-content: space-between;
+    align-items: stretch; /* Alinea las secciones para que tengan la misma altura */
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px; /* Agrega un margen uniforme alrededor de las secciones */
+    text-align: center; /* Alinea el texto a la izquierda */
+    display: flex; /* Utiliza flexbox para alinear elementos verticalmente */
+    flex-direction: column; /* Alinea elementos verticalmente */
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 10px; /* Espacio entre el encabezado y el párrafo */
+}
+
+.footer-section p {
+    font-size: 1rem;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 7px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Termina el pie de pagina*/
+
