@@ -37,7 +37,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
                     <input type="email" class="form-control" name="email" value="<?php echo isset($patient['email']) ? $patient['email'] : '' ?>"  required>
                 </div>
                 <div class="form-group">
-                    <label for="contact" class="control-label">Numero telefonico</label>
+                    <label for="contact" class="control-label">Numero de Telefono</label>
                     <input type="text" class="form-control" name="contact" value="<?php echo isset($patient['contact']) ? $patient['contact'] : '' ?>"  required>
                 </div>
                 <div class="form-group">
@@ -61,34 +61,19 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
                     <option value="2"<?php echo isset($status) && $status == "2" ? "selected": "" ?>>Cancelado</option>
                 </select>
             </div>
-        </div>
-        <div class="col-6">
-                
+
+              </div>
+                <div class="col-6">    
                 <div class="form-group">
-                    <label for="address" class="control-label">Dirección y CP.</label>
+                    <label for="address" class="control-label">Dirección y Codigo Postal</label>
                     <textarea class="form-control" name="address" rows="3" required><?php echo isset($patient['address']) ? $patient['address'] : '' ?></textarea>
                 </div>
-            <?php if($_settings->userdata('id') > 0): ?>
-
+                <?php if($_settings->userdata('id') > 0): ?>
                     
-                    <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Obtener el valor seleccionado del formulario
-    $productoSeleccionado = $_POST["producto"];
-
-    // Insertar la selección en la base de datos
-    $sql = "INSERT INTO productos ($productoSeleccionado) VALUES (1)";
-
-    if (mysqli_query($conn, $sql)) {
-        echo "La selección se ha guardado en la base de datos.";
-    } else {
-        echo "Error al guardar la selección: " . mysqli_error($conn);
-    }
-}
-?>
            <div class="form-group">
                 <label for="equipo" class="control-label">Nombre del equipo y su Password</label>
                 <textarea class="form-control" name="equipo" rows="3" required><?php echo isset($equipo)? $equipo : "" ?></textarea>
+                
             </div>
             
            <div class="form-group">
@@ -106,9 +91,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <?php endif; ?>
             <div class="form-group">
                 <label for="date_sched" class="control-label">Fecha Aproximada</label>
-                <input type="datetime-local" class="form-control" name="date_sched" value="<?php echo isset($date_sched)? date("Y-m-d\TH:i",strtotime($date_sched)) : "" ?>" required>
-          
-
+                <input type="datetime-local" class="form-control" name="date_sched" value="<?php echo isset($date_sched)? date("Y-m-d\TH:i",strtotime($date_sched)) : "" ?>" required>          
             <?php if($_settings->userdata('id') > 0): ?>
                 
            
