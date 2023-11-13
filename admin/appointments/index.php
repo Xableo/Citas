@@ -130,7 +130,7 @@
 			uni_modal("Detalles de Citas","appointments/view_details.php?id="+$(this).attr('data-id'))
 		})
 		$('#create_new').click(function(){
-			uni_modal("Formulario de Citas","appointments/manage_appointment.php",'mid-large')
+			uni_modal("Registrar una cita","appointments/manage_appointment.php",'mid-large')
 		})
 		$('.edit_data').click(function(){
 			uni_modal("Editar detalles de Citas","appointments/manage_appointment.php?id="+$(this).attr('data-id'),'mid-large')

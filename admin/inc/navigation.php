@@ -1,3 +1,4 @@
+<script src="https://kit.fontawesome.com/01e994df18.js" crossorigin="anonymous"></script>
 </style>
 <!-- Main Sidebar Container -->
       <aside class="main-sidebar sidebar-dark-primary elevation-4 sidebar-no-expand">
@@ -25,15 +26,18 @@
                    <ul class="nav nav-pills nav-sidebar flex-column text-sm nav-compact nav-flat nav-child-indent nav-collapse-hide-child" data-widget="treeview" role="menu" data-accordion="false">
                     <li class="nav-item dropdown">
                       <a href="./" class="nav-link nav-home">
-                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <!--<i class="nav-icon fas fa-tachometer-alt"></i>-->
+                        <i class="nav-icon fa-solid fa-house"></i>
+                    
                         <p>
-                          Panel
+                          Panel del control
                         </p>
                       </a>
                     </li> 
                     <li class="nav-item dropdown">
                       <a href="<?php echo base_url ?>admin/?page=appointments" class="nav-link nav-appointments">
-                        <i class="nav-icon fas fa-calendar"></i>
+                        <!--<i class="nav-icon fas fa-calendar"></i>-->
+                        <i class="nav-icon fa-solid fa-user"></i>
                         <p>
                           Lista de Citas
                         </p>
@@ -42,7 +46,7 @@
                     
                     <li class="nav-item dropdown">
                       <a href="<?php echo base_url ?>admin/?page=user/list" class="nav-link nav-user_list">
-                        <i class="nav-icon fas fa-users"></i>
+                        <i class="nav-icon fa-solid fa-users"></i>
                         <p>
                           Lista de Usuarios
                         </p>
@@ -50,9 +54,10 @@
                     </li>
                     <li class="nav-item dropdown">
                       <a href="<?php echo base_url ?>admin/?page=system_info" class="nav-link nav-system_info">
-                        <i class="nav-icon fas fa-cogs"></i>
+                        <!--<i class="nav-icon fas fa-cogs"></i>-->
+                        <i class="nav-icon fa-solid fa-screwdriver-wrench"></i>
                         <p>
-                          Configuración de Sistema
+                          Configuración del Sistema
                         </p>
                       </a>
                     </li>

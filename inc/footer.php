@@ -356,7 +356,7 @@
     <div class="footer-sections">
         <div class="footer-section">
             <h3>Pc Systems</h3>
-            <p>Todos los derechos reservados<br>&copy; Copyright 2023- Todos los derechisPc Systems y computacion</p>
+            <p>Todos los derechos reservados<br>&copy; Copyright 2023- Todos los derechos<br> PC SYSTEMS Y COMPUTACION</p>
         </div>
         <div class="footer-section">
             <h3>Nosotros</h3>

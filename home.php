@@ -26,7 +26,7 @@ $max = 0;
 <script>
     $(function(){
         $('#create_appointment').click(function(){
-			uni_modal("Formulario de Citas","admin/appointments/manage_appointment.php",'mid-large')
+			uni_modal("Agenda tu Cita","admin/appointments/manage_appointment.php",'mid-large')
 		})
     })
 </script>

@@ -75,7 +75,7 @@ $sched_arr = json_encode($sched_query->fetch_all(MYSQLI_ASSOC));
 
                         },
                         eventClick:(info)=>{
-                            uni_modal("Appointment Details","appointments/view_details.php?id="+info.event.id)
+                            uni_modal("Detalles de la cita","appointments/view_details.php?id="+info.event.id)
                         },
                         editable  : false,
                         selectable: true,
