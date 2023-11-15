@@ -139,7 +139,7 @@
 			uni_modal("Enviar mensaje privado","appointments/send_msg.php?id="+$(this).attr('data-id'))
 		})
 		$('.call').click(function(){
-			uni_modal("LLamar numero privado","appointments/call.php?id="+$(this).attr('data-id'))
+			uni_modal("LLamar por WhatsApp","appointments/call.php?id="+$(this).attr('data-id'))
 		})
 		$('.Email').click(function(){
 			uni_modal("Enviar Mensaje por Email","appointments/Email.php?id="+$(this).attr('data-id'))

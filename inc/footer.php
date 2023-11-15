@@ -238,7 +238,7 @@
 
 
 
-<!-- Chat Inteligente -->
+<!-- Chat Inteligente 
     <button id="toggle-chatbot-button" class="open-chatbot-button"></button>
 
     <div id="chatbot-container" class="chatbot-container">
@@ -345,7 +345,7 @@
             chatMessages.appendChild(messageElement);
         }
     </script>
-<!-- Termina Chat Inteligente -->
+Termina Chat Inteligente -->
     
 
     
@@ -421,7 +421,7 @@
     <script src="<?php echo base_url ?>plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
     <!-- overlayScrollbars -->
     <!-- <script src="<?php echo base_url ?>plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script> -->
-    <!-- AdminLTE App -->
+    <!-- AdminLTE App 
     <script src="<?php echo base_url ?>dist/js/adminlte.js"></script>
     <div class="daterangepicker ltr show-ranges opensright">
       <div class="ranges">
@@ -445,7 +445,7 @@
       </div>
       <div class="drp-buttons"><span class="drp-selected"></span><button class="cancelBtn btn btn-sm btn-default" type="button">Cancelar</button><button class="applyBtn btn btn-sm btn-primary" disabled="disabled" type="button">Aplicar</button> </div>
     </div>
-    <div class="jqvmap-label" style="display: none; left: 1093.83px; top: 394.361px;">Idaho</div>
+    <div class="jqvmap-label" style="display: none; left: 1093.83px; top: 394.361px;">Idaho</div>-->
 
 
 

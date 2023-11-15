@@ -22,23 +22,14 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 }
 </style>
 
-
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <label for="equipo" class="control-label">Llamar a <?php echo $patient['contact'] ?></label>
+            <label for="equipo" class="control-label">LLamar a <?php echo $patient['contact'] ?></label>
         </div>
         <div class="form-group d-flex justify-content-end w-100 form-group">
-            <a id="btn-send-msg" href="whatsapp://send?phone=+52<?php echo $patient['contact'] ?>" class='btn btn-md btn-success'>Llamar</a>
-           
+            <a id="btn-send-msg" href="tel:+52<?php echo $patient['contact'] ?>" class='btn btn-md btn-success'>Llamar</a>            
             <button class="btn-light btn ml-2" id='msg-cancel' type="button" data-dismiss="modal">Cancelar</button>
         </div>
     </div>
 </div>
-
-<script>
-    function showLoading() {
-        alert("Espere mientras se carga WhatsApp Web. Puede haber un breve retardo.");
-        // Puedes agregar un indicador de carga aquí si lo prefieres.
-    }
-</script>

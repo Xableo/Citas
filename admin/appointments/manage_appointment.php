@@ -68,14 +68,14 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
                     <label for="address" class="control-label">Dirección y Codigo Postal</label>
                     <textarea class="form-control" name="address" rows="3" required><?php echo isset($patient['address']) ? $patient['address'] : '' ?></textarea>
                 </div>
-                <?php if($_settings->userdata('id') > 0): ?>
+                
                     
            <div class="form-group">
                 <label for="equipo" class="control-label">Nombre del equipo y su Password</label>
                 <textarea class="form-control" name="equipo" rows="3" required><?php echo isset($equipo)? $equipo : "" ?></textarea>
-                
             </div>
             
+        
            <div class="form-group">
                 <label for="ailment" class="control-label">Rasgos y fallas</label>
                 <textarea class="form-control" name="ailment" rows="3" required><?php echo isset($ailment)? $ailment : "" ?></textarea>
@@ -85,10 +85,12 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
                 <label for="accesorios" class="control-label">Accesorios</label>
                 <textarea class="form-control" name="accesorios" rows="3" required><?php echo isset($accesorios)? $accesorios : "" ?></textarea>
             </div>
-            
+            <?php if($_settings->userdata('id') > 0): ?>
+
             <?php else: ?>
-                <input type="hidden" name="ailment" value="">
+                <input type="hidden" name="accesorios" value="">
             <?php endif; ?>
+
             <div class="form-group">
                 <label for="date_sched" class="control-label">Fecha Aproximada</label>
                 <input type="datetime-local" class="form-control" name="date_sched" value="<?php echo isset($date_sched)? date("Y-m-d\TH:i",strtotime($date_sched)) : "" ?>" required>          

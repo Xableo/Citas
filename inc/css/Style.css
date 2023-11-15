@@ -21,15 +21,15 @@ h4 {
 /*Termina Google maps*/
 
 
-/*Asistente en linea*/
+/*Asistente en linea
 .open-chatbot-button {
     position: fixed;
     bottom: 20px;
     left: 20px;
-    background: url('imagenes/chat.png') center center no-repeat; /* Reemplaza 'ruta_de_tu_imagen.png' con la ruta de tu imagen */
-    background-size: contain; /* Puedes ajustar el tamaño según sea necesario */
-    width: 80px; /* Ajusta el ancho según sea necesario */
-    height: 80px; /* Ajusta la altura según sea necesario */
+    background: url('imagenes/chat.png') center center no-repeat; 
+    background-size: contain;
+    width: 80px; 
+    height: 80px; 
     border: none;
     cursor: pointer;
     }
@@ -45,7 +45,7 @@ h4 {
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
         padding: 10px;
         font-family: Arial, sans-serif;
-        max-width: 350px;/* Ajusta lo ancho del chat de asistente*/
+        max-width: 350px;
     }
 
     .chat-header {
@@ -71,7 +71,7 @@ h4 {
     }
 
     .chat-messages {
-        height: 300px; /* Ajusta la altura del chat asistente */
+        height: 300px; 
         overflow-y: auto;
         border: 1px solid #ccc;
         border-radius: 5px;
@@ -111,7 +111,7 @@ h4 {
         border-radius: 3px;
         cursor: pointer;
     }
-/*Termina mi Asistente en linea*/
+Termina mi Asistente en linea*/
 
 /*Pie de pagina*/
 footer {
